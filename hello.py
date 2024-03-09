@@ -1,2 +1,6 @@
+#import pytest
 def hello_world():
-    return "Hello!"
+    """Function printing Hola mundo."""
+    return "Hello World!"
+
+print(hello_world())
